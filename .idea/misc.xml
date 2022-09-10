@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Playsome_1/app/src/main/res/menu/popmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/grad_mini.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/grad_playeractivitycover.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/gradient1.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_arrow.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_blue_repeat.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_blue_shuffle.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_menu.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_pause.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_play.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/drawable/tab_indicator.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/activity_album_song_detail.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/activity_player.xml" value="0.264" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/activity_splash_screen.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/fragment_album.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/fragment_favourite.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/fragment_mini_player.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/fragment_songs.xml" value="0.1" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/itemviewalbum.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/layout/itemviewsongs.xml" value="0.2" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/menu/popmenu.xml" value="0.264" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/menu/search_bar.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/Users/Vishwak/AndroidStudioProjects/Playsome_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

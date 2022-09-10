@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vvcompany.playsome_1">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="com.vvcompany.playsome_1.Notification"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Playsome_1">
+        <activity
+            android:name="com.vvcompany.playsome_1.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vvcompany.playsome_1.MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.vvcompany.playsome_1.AlbumSongDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.vvcompany.playsome_1.PlayerActivity"
+            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <service
+            android:name="com.vvcompany.playsome_1.MyService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.vvcompany.playsome_1.NotificationReciever"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="actionprevious" />
+                <action android:name="actionnext" />
+                <action android:name="actionplay" />
+                <action android:name="actionstop" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

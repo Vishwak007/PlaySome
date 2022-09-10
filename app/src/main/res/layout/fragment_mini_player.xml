@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiniPlayerFragment"
+    android:background="@drawable/grad_mini"
+    android:id="@+id/frame_layout_mini">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mini_player_relt_layout">
+
+
+        <ImageView
+            android:id="@+id/mini_btn_pre"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:layout_toStartOf="@id/mini_player_play_pause"
+            android:src="@drawable/ic_baseline_skip_previous_24" />
+
+        <ImageView
+            android:id="@+id/mini_player_play_pause"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_pause" />
+
+        <ImageView
+            android:id="@+id/mp_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/mini_player_play_pause"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_baseline_skip_next_24" />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
